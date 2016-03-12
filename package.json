@@ -16,9 +16,8 @@
     "test": "node ./test/all.js",
     "publish": "node ./scripts/git-tag.js"
   },
-  "dependencies": {
-    "tern": "^0.15.0",
-    "acorn": "^2.4.0"
+  "peerdependencies": {
+    "tern": "^0.15.0"
   },
   "devDependencies": {
     "test": ">=0.0.5",
